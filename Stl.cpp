@@ -7,7 +7,7 @@ void print(stack<char> st) {
 	int p = st.size(); // Размер стека
 	if (p == 0)
 	{
-		cout << "список пуст";
+		cout << "стек пуст";
 	}
 	else {
 		for (int i = 0; i < p; i++) // Печать элементов стека
